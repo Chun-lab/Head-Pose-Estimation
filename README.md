@@ -1,0 +1,8 @@
+
+mdoels：头部姿态估计模型
+losses.py：包含头部姿态估计常用的loss函数
+train.py: 训练模型，需要导入你自己的模型
+val.py: 验证模型，需要填写你训练好的模型文件夹名称
+utils.py: 训练验证相关的一些工具函数
+requirements.txt:需要你导入的一些包
+only-test:进行单张图片检测，并且输出可视化结果
